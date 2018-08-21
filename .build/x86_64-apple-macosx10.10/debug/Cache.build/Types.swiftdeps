@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Image"
+provides-nominal:
+provides-member:
+- ["So7NSImageC", ""]
+- ["So7NSImageC", "hasAlpha"]
+- ["So7NSImageC", "cache_toData"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "Data"
+- !private "Dictionary"
+- "Image"
+- !private "NSBitmapImageRep"
+- "NSImage"
+- "TernaryPrecedence"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CGImageC", "alphaInfo"]
+- ["SC16CGImageAlphaInfoO", "none"]
+- ["SC16CGImageAlphaInfoO", "noneSkipFirst"]
+- ["SC16CGImageAlphaInfoO", "noneSkipLast"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["SC6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "FileType"]
+- !private ["s7CVarArgP", "NSBitmapImageRep"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "hasAlpha"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "representation"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "tiffRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "FileType"]
+- !private ["s28CustomDebugStringConvertibleP", "NSBitmapImageRep"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "hasAlpha"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "representation"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "tiffRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "FileType"]
+- !private ["s23CustomStringConvertibleP", "NSBitmapImageRep"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "hasAlpha"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "representation"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "tiffRepresentation"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "FileType"]
+- !private ["s9EquatableP", "NSBitmapImageRep"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "alphaInfo"]
+- !private ["s9EquatableP", "cgImage"]
+- !private ["s9EquatableP", "hasAlpha"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jpeg"]
+- ["s9EquatableP", "none"]
+- ["s9EquatableP", "noneSkipFirst"]
+- ["s9EquatableP", "noneSkipLast"]
+- !private ["s9EquatableP", "png"]
+- !private ["s9EquatableP", "representation"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "tiffRepresentation"]
+- !private ["s9EquatableP", "width"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["So16NSBitmapImageRepC8FileTypeO", "jpeg"]
+- !private ["So16NSBitmapImageRepC8FileTypeO", "png"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "FileType"]
+- !private ["s8HashableP", "NSBitmapImageRep"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "alphaInfo"]
+- !private ["s8HashableP", "cgImage"]
+- !private ["s8HashableP", "hasAlpha"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "jpeg"]
+- ["s8HashableP", "none"]
+- ["s8HashableP", "noneSkipFirst"]
+- ["s8HashableP", "noneSkipLast"]
+- !private ["s8HashableP", "png"]
+- !private ["s8HashableP", "representation"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "tiffRepresentation"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So16NSBitmapImageRepC", "FileType"]
+- !private ["So16NSBitmapImageRepC", "init"]
+- !private ["So16NSBitmapImageRepC", "representation"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "FileType"]
+- !private ["So8NSCodingP", "NSBitmapImageRep"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "hasAlpha"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "representation"]
+- !private ["So8NSCodingP", "size"]
+- !private ["So8NSCodingP", "tiffRepresentation"]
+- !private ["So9NSCopyingP", "CGRect"]
+- !private ["So9NSCopyingP", "FileType"]
+- !private ["So9NSCopyingP", "NSBitmapImageRep"]
+- !private ["So9NSCopyingP", "cgImage"]
+- !private ["So9NSCopyingP", "hasAlpha"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "representation"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So9NSCopyingP", "tiffRepresentation"]
+- ["So7NSImageC", "Bool"]
+- !private ["So7NSImageC", "CGRect"]
+- ["So7NSImageC", "Data"]
+- !private ["So7NSImageC", "NSBitmapImageRep"]
+- ["So7NSImageC", "cache_toData"]
+- !private ["So7NSImageC", "cgImage"]
+- ["So7NSImageC", "hasAlpha"]
+- !private ["So7NSImageC", "size"]
+- !private ["So7NSImageC", "tiffRepresentation"]
+- !private ["So10NSImageRepC", "FileType"]
+- !private ["So10NSImageRepC", "init"]
+- !private ["So10NSImageRepC", "representation"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "FileType"]
+- !private ["So8NSObjectC", "NSBitmapImageRep"]
+- ["So8NSObjectC", "cache_toData"]
+- !private ["So8NSObjectC", "cgImage"]
+- ["So8NSObjectC", "hasAlpha"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "representation"]
+- !private ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "tiffRepresentation"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "FileType"]
+- !private ["So16NSObjectProtocolP", "NSBitmapImageRep"]
+- !private ["So16NSObjectProtocolP", "cgImage"]
+- !private ["So16NSObjectProtocolP", "hasAlpha"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "representation"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "tiffRepresentation"]
+- !private ["So19NSPasteboardReadingP", "CGRect"]
+- !private ["So19NSPasteboardReadingP", "NSBitmapImageRep"]
+- !private ["So19NSPasteboardReadingP", "cgImage"]
+- !private ["So19NSPasteboardReadingP", "hasAlpha"]
+- !private ["So19NSPasteboardReadingP", "size"]
+- !private ["So19NSPasteboardReadingP", "tiffRepresentation"]
+- !private ["So19NSPasteboardWritingP", "CGRect"]
+- !private ["So19NSPasteboardWritingP", "NSBitmapImageRep"]
+- !private ["So19NSPasteboardWritingP", "cgImage"]
+- !private ["So19NSPasteboardWritingP", "hasAlpha"]
+- !private ["So19NSPasteboardWritingP", "size"]
+- !private ["So19NSPasteboardWritingP", "tiffRepresentation"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "FileType"]
+- !private ["So14NSSecureCodingP", "NSBitmapImageRep"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "hasAlpha"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "representation"]
+- !private ["So14NSSecureCodingP", "size"]
+- !private ["So14NSSecureCodingP", "tiffRepresentation"]
+- !private ["s16RawRepresentableP", "jpeg"]
+- ["s16RawRepresentableP", "none"]
+- ["s16RawRepresentableP", "noneSkipFirst"]
+- ["s16RawRepresentableP", "noneSkipLast"]
+- !private ["s16RawRepresentableP", "png"]
+- !private ["14CoreFoundation9_CFObjectP", "alphaInfo"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "NSBitmapImageRep"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "hasAlpha"]
+- !private ["s26_ExpressibleByImageLiteralP", "size"]
+- !private ["s26_ExpressibleByImageLiteralP", "tiffRepresentation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSBitmapImageRep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasAlpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "representation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tiffRepresentation"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "Sb"
+- !private "So7CGImageC"
+- "SC16CGImageAlphaInfoO"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "So16NSBitmapImageRepC8FileTypeO"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So16NSBitmapImageRepC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So7NSImageC"
+- !private "So10NSImageRepC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- "s16RawRepresentableP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ceac561be3b5c1128d4ecde7b2aa916a"

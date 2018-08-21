@@ -1,0 +1,145 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransformerFactory"
+provides-nominal:
+- "5Cache18TransformerFactoryC"
+provides-member:
+- ["5Cache18TransformerFactoryC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Codable"
+- "Data"
+- "Image"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- !private "StorageError"
+- "Transformer"
+- "TransformerFactory"
+- !private "TypeWrapper"
+depends-member:
+- !private ["s7CVarArgP", "cache_toData"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "cache_toData"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "unwrapOrThrow"]
+- !private ["s17CustomReflectableP", "unwrapOrThrow"]
+- !private ["s23CustomStringConvertibleP", "cache_toData"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "object"]
+- !private ["s9DecodableP", "unwrapOrThrow"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "object"]
+- !private ["s9EncodableP", "unwrapOrThrow"]
+- !private ["s9EquatableP", "cache_toData"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "transformerFail"]
+- !private ["s9EquatableP", "unwrapOrThrow"]
+- !private ["s5ErrorP", "transformerFail"]
+- !private ["s23ExpressibleByNilLiteralP", "unwrapOrThrow"]
+- !private ["s8HashableP", "cache_toData"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "transformerFail"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["So8NSCodingP", "cache_toData"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "cache_toData"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So7NSImageC", "cache_toData"]
+- !private ["So7NSImageC", "init"]
+- !private ["So8NSObjectC", "cache_toData"]
+- !private ["So16NSObjectProtocolP", "cache_toData"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So19NSPasteboardReadingP", "cache_toData"]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "cache_toData"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So14NSSecureCodingP", "cache_toData"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "unwrapOrThrow"]
+- !private ["5Cache12StorageErrorO", "deinit"]
+- !private ["5Cache12StorageErrorO", "transformerFail"]
+- !private ["5Cache11TransformerC", "init"]
+- ["5Cache18TransformerFactoryC", "Codable"]
+- ["5Cache18TransformerFactoryC", "Data"]
+- ["5Cache18TransformerFactoryC", "Image"]
+- !private ["5Cache18TransformerFactoryC", "JSONDecoder"]
+- !private ["5Cache18TransformerFactoryC", "JSONEncoder"]
+- !private ["5Cache18TransformerFactoryC", "StorageError"]
+- ["5Cache18TransformerFactoryC", "Transformer"]
+- !private ["5Cache18TransformerFactoryC", "TypeWrapper"]
+- ["5Cache18TransformerFactoryC", "deinit"]
+- ["5Cache18TransformerFactoryC", "forCodable"]
+- ["5Cache18TransformerFactoryC", "forData"]
+- ["5Cache18TransformerFactoryC", "forImage"]
+- ["5Cache18TransformerFactoryC", "init"]
+- !private ["5Cache11TypeWrapperV", "deinit"]
+- !private ["5Cache11TypeWrapperV", "init"]
+- !private ["5Cache11TypeWrapperV", "object"]
+- !private ["s26_ExpressibleByImageLiteralP", "cache_toData"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cache_toData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "unwrapOrThrow"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSImageC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "5Cache12StorageErrorO"
+- !private "5Cache11TransformerC"
+- "5Cache18TransformerFactoryC"
+- !private "5Cache11TypeWrapperV"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0973600be21f961c38773eb913d036da"

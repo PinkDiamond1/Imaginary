@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Cache",
+        "repositoryURL": "https://github.com/steemit/Cache.git",
+        "state": {
+          "branch": "master",
+          "revision": "c439c85e1b4d105e1e6faada89eaed098507284d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

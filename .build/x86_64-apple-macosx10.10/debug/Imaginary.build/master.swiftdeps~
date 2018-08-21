@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "0eaea363b59769318993bed36a3de736"
+build_time: [1534862836, 831645000]
+inputs:
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Extensions/View+Imaginary.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Fetcher/ImageDownloader.swift": !dirty [1534862276, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Fetcher/ImageFetcher.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Fetcher/MultipleImageFetcher.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/Configuration.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/ImageDisplayer.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/ImageProcessor.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/ImaginaryError.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/Option.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/Result.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/Shared/Library/Types.swift": !dirty [1534861918, 0]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/iOS/ButtonBackgroundDisplayer.swift": !dirty [9223372036, 854775807]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/iOS/ButtonDisplayer.swift": !dirty [9223372036, 854775807]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/iOS/Decompressor.swift": !dirty [9223372036, 854775807]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/iOS/ImageViewDisplayer.swift": !dirty [9223372036, 854775807]
+  "/Users/muyloco/Dev/steemit/Imaginary/Sources/iOS/TintImageProcessor.swift": !dirty [9223372036, 854775807]

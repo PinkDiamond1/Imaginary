@@ -1,0 +1,1 @@
+{"object": {"dependencies": [{"basedOn": null, "packageRef": {"identity": "cache", "isLocal": false, "name": "Cache", "path": "https://github.com/steemit/Cache.git"}, "state": {"checkoutState": {"branch": "master", "revision": "c439c85e1b4d105e1e6faada89eaed098507284d", "version": null}, "name": "checkout"}, "subpath": "Cache.git-6250215329723070079"}]}, "version": 2}

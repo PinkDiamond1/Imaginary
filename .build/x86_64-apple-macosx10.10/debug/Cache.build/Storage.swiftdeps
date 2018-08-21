@@ -1,0 +1,307 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Storage"
+provides-nominal:
+- "5Cache7StorageC"
+provides-member:
+- ["5Cache7StorageC", ""]
+- ["5Cache7StorageC", "transform"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "AsyncStorage"
+- "DiskConfig"
+- !private "DiskStorage"
+- !private "DispatchQueue"
+- "Entry"
+- "Expiry"
+- "HybridStorage"
+- "KeyChange"
+- "KeyObservationRegistry"
+- "MemoryConfig"
+- !private "MemoryStorage"
+- "ObservationToken"
+- "Storage"
+- "StorageAware"
+- "StorageChange"
+- "StorageObservationRegistry"
+- "String"
+- !private "StringLiteralType"
+- "SyncStorage"
+- "Transformer"
+- "Void"
+depends-member:
+- !private ["5Cache12AsyncStorageC", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["5Cache11DiskStorageC", "init"]
+- !private ["So13DispatchQueueC", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["5Cache13HybridStorageC", "addObserver"]
+- !private ["5Cache13HybridStorageC", "addStorageObserver"]
+- !private ["5Cache13HybridStorageC", "deinit"]
+- !private ["5Cache13HybridStorageC", "init"]
+- !private ["5Cache13HybridStorageC", "removeAllKeyObservers"]
+- !private ["5Cache13HybridStorageC", "removeAllStorageObservers"]
+- !private ["5Cache13HybridStorageC", "removeObserver"]
+- !private ["5Cache13HybridStorageC", "transform"]
+- !private ["5Cache22KeyObservationRegistryP", "AsyncStorage"]
+- !private ["5Cache22KeyObservationRegistryP", "DiskStorage"]
+- !private ["5Cache22KeyObservationRegistryP", "DispatchQueue"]
+- !private ["5Cache22KeyObservationRegistryP", "HybridStorage"]
+- !private ["5Cache22KeyObservationRegistryP", "MemoryStorage"]
+- ["5Cache22KeyObservationRegistryP", "S"]
+- !private ["5Cache22KeyObservationRegistryP", "Storage"]
+- !private ["5Cache22KeyObservationRegistryP", "SyncStorage"]
+- ["5Cache22KeyObservationRegistryP", "T"]
+- ["5Cache22KeyObservationRegistryP", ""]
+- ["5Cache22KeyObservationRegistryP", "_Default_S"]
+- ["5Cache22KeyObservationRegistryP", "_Default_T"]
+- ["5Cache22KeyObservationRegistryP", "addObserver"]
+- ["5Cache22KeyObservationRegistryP", "addStorageObserver"]
+- ["5Cache22KeyObservationRegistryP", "asyncStorage"]
+- ["5Cache22KeyObservationRegistryP", "entry"]
+- ["5Cache22KeyObservationRegistryP", "existsObject"]
+- !private ["5Cache22KeyObservationRegistryP", "hybridStorage"]
+- !private ["5Cache22KeyObservationRegistryP", "init"]
+- ["5Cache22KeyObservationRegistryP", "isExpiredObject"]
+- ["5Cache22KeyObservationRegistryP", "object"]
+- ["5Cache22KeyObservationRegistryP", "removeAll"]
+- ["5Cache22KeyObservationRegistryP", "removeAllKeyObservers"]
+- ["5Cache22KeyObservationRegistryP", "removeAllStorageObservers"]
+- ["5Cache22KeyObservationRegistryP", "removeExpiredObjects"]
+- ["5Cache22KeyObservationRegistryP", "removeObject"]
+- ["5Cache22KeyObservationRegistryP", "removeObserver"]
+- ["5Cache22KeyObservationRegistryP", "setObject"]
+- !private ["5Cache22KeyObservationRegistryP", "syncStorage"]
+- !private ["5Cache22KeyObservationRegistryP", "transform"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["5Cache13MemoryStorageC", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- ["5Cache7StorageC", "AnyObject"]
+- ["5Cache7StorageC", "AsyncStorage"]
+- ["5Cache7StorageC", "DiskConfig"]
+- !private ["5Cache7StorageC", "DiskStorage"]
+- !private ["5Cache7StorageC", "DispatchQueue"]
+- ["5Cache7StorageC", "Entry"]
+- ["5Cache7StorageC", "Expiry"]
+- ["5Cache7StorageC", "HybridStorage"]
+- ["5Cache7StorageC", "KeyChange"]
+- ["5Cache7StorageC", "MemoryConfig"]
+- !private ["5Cache7StorageC", "MemoryStorage"]
+- ["5Cache7StorageC", "ObservationToken"]
+- ["5Cache7StorageC", "S"]
+- ["5Cache7StorageC", "Storage"]
+- ["5Cache7StorageC", "StorageChange"]
+- ["5Cache7StorageC", "String"]
+- ["5Cache7StorageC", "SyncStorage"]
+- ["5Cache7StorageC", "T"]
+- ["5Cache7StorageC", "Transformer"]
+- ["5Cache7StorageC", "Void"]
+- ["5Cache7StorageC", "_Default_S"]
+- ["5Cache7StorageC", "_Default_T"]
+- ["5Cache7StorageC", "addObserver"]
+- ["5Cache7StorageC", "addStorageObserver"]
+- ["5Cache7StorageC", "async"]
+- !private ["5Cache7StorageC", "async.storage"]
+- ["5Cache7StorageC", "asyncStorage"]
+- ["5Cache7StorageC", "deinit"]
+- ["5Cache7StorageC", "entry"]
+- ["5Cache7StorageC", "existsObject"]
+- !private ["5Cache7StorageC", "hybridStorage"]
+- ["5Cache7StorageC", "init"]
+- ["5Cache7StorageC", "isExpiredObject"]
+- ["5Cache7StorageC", "object"]
+- ["5Cache7StorageC", "removeAll"]
+- ["5Cache7StorageC", "removeAllKeyObservers"]
+- ["5Cache7StorageC", "removeAllStorageObservers"]
+- ["5Cache7StorageC", "removeExpiredObjects"]
+- ["5Cache7StorageC", "removeObject"]
+- ["5Cache7StorageC", "removeObserver"]
+- ["5Cache7StorageC", "setObject"]
+- !private ["5Cache7StorageC", "syncStorage"]
+- ["5Cache7StorageC", "transform"]
+- !private ["5Cache12StorageAwareP", "AsyncStorage"]
+- !private ["5Cache12StorageAwareP", "DiskStorage"]
+- !private ["5Cache12StorageAwareP", "DispatchQueue"]
+- !private ["5Cache12StorageAwareP", "HybridStorage"]
+- !private ["5Cache12StorageAwareP", "MemoryStorage"]
+- ["5Cache12StorageAwareP", "S"]
+- !private ["5Cache12StorageAwareP", "Storage"]
+- !private ["5Cache12StorageAwareP", "SyncStorage"]
+- ["5Cache12StorageAwareP", "T"]
+- ["5Cache12StorageAwareP", ""]
+- ["5Cache12StorageAwareP", "_Default_S"]
+- ["5Cache12StorageAwareP", "_Default_T"]
+- ["5Cache12StorageAwareP", "addObserver"]
+- ["5Cache12StorageAwareP", "addStorageObserver"]
+- ["5Cache12StorageAwareP", "asyncStorage"]
+- ["5Cache12StorageAwareP", "entry"]
+- ["5Cache12StorageAwareP", "existsObject"]
+- !private ["5Cache12StorageAwareP", "hybridStorage"]
+- !private ["5Cache12StorageAwareP", "init"]
+- ["5Cache12StorageAwareP", "isExpiredObject"]
+- ["5Cache12StorageAwareP", "object"]
+- ["5Cache12StorageAwareP", "removeAll"]
+- ["5Cache12StorageAwareP", "removeAllKeyObservers"]
+- ["5Cache12StorageAwareP", "removeAllStorageObservers"]
+- ["5Cache12StorageAwareP", "removeExpiredObjects"]
+- ["5Cache12StorageAwareP", "removeObject"]
+- ["5Cache12StorageAwareP", "removeObserver"]
+- ["5Cache12StorageAwareP", "setObject"]
+- !private ["5Cache12StorageAwareP", "syncStorage"]
+- !private ["5Cache12StorageAwareP", "transform"]
+- !private ["5Cache26StorageObservationRegistryP", "AsyncStorage"]
+- !private ["5Cache26StorageObservationRegistryP", "DiskStorage"]
+- !private ["5Cache26StorageObservationRegistryP", "DispatchQueue"]
+- !private ["5Cache26StorageObservationRegistryP", "HybridStorage"]
+- !private ["5Cache26StorageObservationRegistryP", "MemoryStorage"]
+- ["5Cache26StorageObservationRegistryP", "S"]
+- !private ["5Cache26StorageObservationRegistryP", "Storage"]
+- !private ["5Cache26StorageObservationRegistryP", "SyncStorage"]
+- ["5Cache26StorageObservationRegistryP", "T"]
+- ["5Cache26StorageObservationRegistryP", ""]
+- ["5Cache26StorageObservationRegistryP", "_Default_S"]
+- ["5Cache26StorageObservationRegistryP", "_Default_T"]
+- ["5Cache26StorageObservationRegistryP", "addObserver"]
+- ["5Cache26StorageObservationRegistryP", "addStorageObserver"]
+- ["5Cache26StorageObservationRegistryP", "asyncStorage"]
+- ["5Cache26StorageObservationRegistryP", "entry"]
+- ["5Cache26StorageObservationRegistryP", "existsObject"]
+- !private ["5Cache26StorageObservationRegistryP", "hybridStorage"]
+- !private ["5Cache26StorageObservationRegistryP", "init"]
+- ["5Cache26StorageObservationRegistryP", "isExpiredObject"]
+- ["5Cache26StorageObservationRegistryP", "object"]
+- ["5Cache26StorageObservationRegistryP", "removeAll"]
+- ["5Cache26StorageObservationRegistryP", "removeAllKeyObservers"]
+- ["5Cache26StorageObservationRegistryP", "removeAllStorageObservers"]
+- ["5Cache26StorageObservationRegistryP", "removeExpiredObjects"]
+- ["5Cache26StorageObservationRegistryP", "removeObject"]
+- ["5Cache26StorageObservationRegistryP", "removeObserver"]
+- ["5Cache26StorageObservationRegistryP", "setObject"]
+- !private ["5Cache26StorageObservationRegistryP", "syncStorage"]
+- !private ["5Cache26StorageObservationRegistryP", "transform"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["5Cache11SyncStorageC", "deinit"]
+- !private ["5Cache11SyncStorageC", "entry"]
+- !private ["5Cache11SyncStorageC", "init"]
+- !private ["5Cache11SyncStorageC", "removeAll"]
+- !private ["5Cache11SyncStorageC", "removeExpiredObjects"]
+- !private ["5Cache11SyncStorageC", "removeObject"]
+- !private ["5Cache11SyncStorageC", "setObject"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "5Cache12AsyncStorageC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "5Cache11DiskStorageC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "5Cache13HybridStorageC"
+- "5Cache22KeyObservationRegistryP"
+- !private "s25LosslessStringConvertibleP"
+- !private "5Cache13MemoryStorageC"
+- !private "s10MirrorPathP"
+- !private "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- "5Cache7StorageC"
+- "5Cache12StorageAwareP"
+- "5Cache26StorageObservationRegistryP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "5Cache11SyncStorageC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "46b204368833bfd595fe960b334e3bc2"
